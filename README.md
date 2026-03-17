@@ -1,24 +1,25 @@
-#TENANT CHURN PREDICTION USING MACHINE LEARNING
+# TENANT CHURN PREDICTION USING MACHINE LEARNING
 
 
 
-PROJECT OVERVIEW
+## PROJECT OVERVIEW
 
 This project predicts whether a tenant is likely to churn based on behavioral and property-related data.
 It helps property managers identify high-risk tenants and take preventive actions
+#
 
 
 
 
-PROBLEM STATEMENT
+## PROBLEM STATEMENT
 
 Tenant churn leads to revenue loss and increased costs.
 The goal of this project is to build a machine learning model that can predict tenant churn in advance.
 
+#
 
 
-
-DATASET DESCRIPTION
+## DATASET DESCRIPTION
 
 The dataset contains tenant-related information such as:
 
@@ -41,100 +42,109 @@ satisfaction_score
 last_login_days_ago
 
 Target Variable:
+#
 
 
 
-
-TENANT_CHURN
+## TENANT_CHURN
 
 0 → Not churn
 
 1 → Churn
+#
 
 
 
 
-DATA PREPROCESSING
+## DATA PREPROCESSING
 
-Removed unnecessary columns (e.g., Tenant ID)
+(1) Removed unnecessary columns (e.g., Tenant ID)
 
-Converted categorical variables using one-hot encoding
+(2) Converted categorical variables using one-hot encoding
 
-Ensured all features are numeric
+(3) Ensured all features are numeric
 
-Handled feature mismatch during prediction
-
-
-
-
-EXPLORARTRY DATA  ANALYSIS (EDA)
-
-More support tickets → Lower satisfaction
-
-Low satisfaction → Higher churn
-
-More logins → Lower churn
-
-Longer session duration → Higher engagement
+(4) Handled feature mismatch during prediction
+#
 
 
 
 
 
-MODEL BUILDING
+## EXPLORARTRY DATA  ANALYSIS (EDA)
 
-Algorithm: Random Forest Classifier
+(1) More support tickets → Lower satisfaction
 
-Train-Test Split: 80/20
+(2) Low satisfaction → Higher churn
 
-Library: Scikit-learn
+(3) More logins → Lower churn
+
+(4) Longer session duration → Higher engagement
+#
 
 
 
 
 
+## MODEL BUILDING
 
-MODEL EVALUATION
+(1) Algorithm: Random Forest Classifier
 
-Confusion Matri
+(2) Train-Test Split: 80/20
+
+(3) Library: Scikit-learn
+#
+
+
+
+
+
+## MODEL EVALUATION
+
+Confusion Matrix
+
 [[1979 66]
+
 [ 138 817]]
+#
 
 
 
 
 
-PERFORMANCE
+## PERFORMANCE
 
-Accuracy: 93.2%
+(1) Accuracy: 93.2%
 
-Precision: 92.5%
+(2) Precision: 92.5%
 
-Recall: 85.5%
-
-
-
+(3) Recall: 85.5%
+#
 
 
-STREAMLIT WEB APP
+
+
+
+## STREAMLIT WEB APP
 
 An interactive web application is built using Streamlit.
 
 Features:
 
-User input form
+(1) User input form
 
-Real-time prediction
+(2) Real-time prediction
 
-Churn probability (%)
+(3) Churn probability (%)
 
-Easy-to-use interface
-
-
-
+(4) Easy-to-use interface
+#
 
 
-HOW TO RUN THE PROJECT
+
+
+
+## HOW TO RUN THE PROJECT
 1. Install dependencies
 
 pip install streamlit pandas scikit-learn
@@ -146,28 +156,28 @@ python -m streamlit run app.py
 3. Open in browser
 
 http://localhost:8501
+#
 
 
 
 
 
-
-DEPLOYMENT
+## DEPLOYMENT
 
 You can deploy this project using:
 
-(1)Streamlit Cloud
+(1) Streamlit Cloud
 
-(2)Render
+(2) Render
 
-(3)AWS
-
-
-
+(3) AWS
+#
 
 
 
-PROJECT STRUCTURE
+
+
+## PROJECT STRUCTURE
 
 Tenant_Churn_Project/
 
@@ -182,26 +192,28 @@ Tenant_Churn_Project/
 ├── requirements.txt
 
 └── README.md
+#
 
 
 
 
 
-
-CONCLUSION
+## CONCLUSION
 
 This model successfully predicts tenant churn with high accuracy (~93%).
 It helps in identifying at-risk tenants and reducing potential loss.
+#
 
 
 
 
-AUTHOR
+## AUTHOR
+
 Suraj Singh
+#
 
 
 
-
-SUPPORT
+## SUPPORT
 
 If you like this project, give it a ⭐ on GitHub!
