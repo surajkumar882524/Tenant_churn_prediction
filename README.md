@@ -1,19 +1,24 @@
-#Tenant Churn Prediction using Machine Learning
+TENANT CHURN PREDICTION USING MACHINE LEARNING
 
 
-#Project Overview
+
+PROJECT OVERVIEW
 
 This project predicts whether a tenant is likely to churn based on behavioral and property-related data.
 It helps property managers identify high-risk tenants and take preventive actions
 
 
-#Problem Statement
+
+
+PROBLEM STATEMENT
 
 Tenant churn leads to revenue loss and increased costs.
 The goal of this project is to build a machine learning model that can predict tenant churn in advance.
 
 
-#Dataset Description
+
+
+DATASET DESCRIPTION
 
 The dataset contains tenant-related information such as:
 
@@ -38,14 +43,18 @@ last_login_days_ago
 Target Variable:
 
 
-#Tenant_churn
+
+
+TENANT_CHURN
 
 0 → Not churn
 
 1 → Churn
 
 
-#Data Preprocessing
+
+
+DATA PREPROCESSING
 
 Removed unnecessary columns (e.g., Tenant ID)
 
@@ -56,7 +65,9 @@ Ensured all features are numeric
 Handled feature mismatch during prediction
 
 
-#Exploratory Data Analysis (EDA)
+
+
+EXPLORARTRY DATA  ANALYSIS (EDA)
 
 More support tickets → Lower satisfaction
 
@@ -67,7 +78,10 @@ More logins → Lower churn
 Longer session duration → Higher engagement
 
 
-#Model Building
+
+
+
+MODEL BUILDING
 
 Algorithm: Random Forest Classifier
 
@@ -75,14 +89,22 @@ Train-Test Split: 80/20
 
 Library: Scikit-learn
 
-#Model Evaluation
-#Confusion Matrix:
 
+
+
+
+
+MODEL EVALUATION
+
+Confusion Matri
 [[1979 66]
 [ 138 817]]
 
 
-#Performance:
+
+
+
+PERFORMANCE
 
 Accuracy: 93.2%
 
@@ -91,7 +113,10 @@ Precision: 92.5%
 Recall: 85.5%
 
 
-#Streamlit Web App
+
+
+
+STREAMLIT WEB APP
 
 An interactive web application is built using Streamlit.
 
@@ -106,7 +131,10 @@ Churn probability (%)
 Easy-to-use interface
 
 
-#How to Run the Project
+
+
+
+HOW TO RUN THE PROJECT
 1. Install dependencies
 
 pip install streamlit pandas scikit-learn
@@ -119,7 +147,12 @@ python -m streamlit run app.py
 
 http://localhost:8501
 
-#Deployment
+
+
+
+
+
+DEPLOYMENT
 
 You can deploy this project using:
 
@@ -130,25 +163,45 @@ You can deploy this project using:
 (3)AWS
 
 
-#Project Structure
+
+
+
+
+PROJECT STRUCTURE
 
 Tenant_Churn_Project/
+
 │
+
 ├── app.py
+
 ├── Tenant_churn_prediction.csv
+
 ├── tenant_churn_model.pkl
+
 ├── requirements.txt
+
 └── README.md
 
-#Conclusion
+
+
+
+
+
+CONCLUSION
 
 This model successfully predicts tenant churn with high accuracy (~93%).
 It helps in identifying at-risk tenants and reducing potential loss.
 
-#Author
+
+
+
+AUTHOR
 Suraj Singh
 
 
-#Support
+
+
+SUPPORT
 
 If you like this project, give it a ⭐ on GitHub!
