@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 
-st.title("🏠 Tenant Churn Prediction App")
+st.title(" Tenant Churn Prediction App")
 st.write("Predict whether a tenant will churn based on behavior and property data.")
 
 uploaded_file = st.file_uploader("Upload Tenant Dataset CSV", type=["csv"])
@@ -73,6 +73,6 @@ if uploaded_file:
         prediction = model.predict(input_data)
 
         if prediction[0] == 1:
-            st.error("⚠️ Tenant is likely to CHURN")
+            st.error(" Tenant is likely to CHURN")
         else:
-            st.success("✅ Tenant is NOT likely to churn")
+            st.success(" Tenant is NOT likely to churn")
