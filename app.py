@@ -142,7 +142,7 @@ Your uploaded file **must contain ALL these columns exactly**:
 
 """)
 
-
+st.markdown("""- **PREDICTION** → 0 = LEAVE , 1 = STAY""")
 
 
 # Load trained pipeline
