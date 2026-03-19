@@ -164,7 +164,8 @@ http://localhost:8501
 
 ## SCREENSHOT
 
-<img width="477" height="764" alt="Screenshot png" src="https://github.com/user-attachments/assets/f6cefdda-e6dd-430f-897f-652025cfebd9" />
+<img width="1818" height="880" alt="Screenshot 2026-03-19 183313" src="https://github.com/user-attachments/assets/1719a61b-4c2a-4e47-98cd-bdc9af1985ad" />
+
 
 
 
