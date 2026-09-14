@@ -1,6 +1,7 @@
 # TENANT CHURN PREDICTION USING MACHINE LEARNING
+A Machine Learning project that predicts whether a tenant is likely to stay or churn (leave) based on behavioral, subscription, payment, engagement, and satisfaction-related features.
 
-
+The project includes a complete ML pipeline with data preprocessing, model training, prediction, and an interactive Streamlit web application for both single and batch predictions.
 
 ## PROJECT OVERVIEW
 
